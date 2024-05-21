@@ -48,7 +48,7 @@ A API Flask será executada no contêiner `iris-api` e estará disponível em `h
 1. **Caso de Teste 1**
 
 ```sh
-curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d "{"sepal_length": 5.1, "sepal_width": 3.5, "petal_length": 1.4, "petal_width": 0.2}"
+curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d "{\"sepal_length\": 5.1, \"sepal_width\": 3.5, \"petal_length\": 1.4, \"petal_width\": 0.2}"
 ```
 
 **Resposta Esperada**:
