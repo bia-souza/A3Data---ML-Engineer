@@ -1,0 +1,5 @@
+kedro
+pandas
+scikit-learn
+joblib
+flask
